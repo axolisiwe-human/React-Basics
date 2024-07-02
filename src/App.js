@@ -4,7 +4,8 @@ import QRCODE from './qrcode.png'
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
+        <div className="App">
       <div className='image'>
        <img src={QRCODE} alt="QR code" />
 
@@ -16,6 +17,9 @@ function App() {
         <p>Scan the QR code to visit Front-end Mentor and take your coding skills to the next level</p>
       </div>
     </div>
+
+    </div>
+  
   );
 }
 
